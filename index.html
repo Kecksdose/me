@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.1/css/bulma.min.css">
   </head>
   <body>
-    <section class="hero is-primary">
+    <div class="container">
+    <section class="hero">
       <div class="hero-body has-text-centered">
         <h1 class="title">
           <p>
@@ -18,38 +19,48 @@
           </p>
         </h1>
         <p class="subtitle">
-          Nice to see you!
+          Nice to see you
         </p>
       </div>
     </section>
-    <div class="container">
     <section class="section">
-      <p>
-        This is the homepage of <strong>Timon Schmelzer</strong>. Feel free to look around.
-        If you have any feedback to my or this site, just send me a <a href="mailto:tisch1990@icloud.com">mail</a>.
-      </p>
-    </section>
+      <article class="media">
+        <div class="media-left">
+          <figure class="image is-128x128">
+            <img src="me.jpg" alt="Image">
+          </figure>
+        </div>
+        <div class="media-content">
+          <div class="content">
+            <p>
+              <strong>Timon Schmelzer</strong>
+              <br>
+              This is my homepage. Feel free to look around.
+              If you have any feedback to my or this site, just send me a <a href="mailto:tisch1990@icloud.com">mail</a>.            </p>
+          </div>
+        </div>
+      </article>
     <section class="section">
       <h1 class="title">
         My life, devided into three parts
       </h1>
       <div class="tile is-ancestor">
         <div class="tile is-parent">
-          <div class="tile is-child notification is-warning box">
+          <div class="tile is-child notification box">
             <p class="title">Physics</p>
             <p class="subtitle">Where all began</p>
             <p>Here is some text about my interests in physics in general, my studies and so on</p>
           </div>
         </div>
         <div class="tile is-parent">
-          <div class="tile is-child notification is-info box">
+          <div class="tile is-child notification box">
             <p class="title">Programming</p>
             <p class="subtitle">With great power comes great responsibility</p>
             <p> I started programming during my Bachelor Thesis. Since than, I tried many different things, such as Python...
           </div>
         </div>
         <div class="tile is-parent">
-          <div class="tile is-child notification is-success box">
+          <div class="tile is-child notification box">
             <p class="title">Fun</p>
             <p class="subtitle">Sometimes I have fun, too.</p>
             <p>Another cool story</p>
@@ -58,5 +69,10 @@
       </div>
     </section>
     </div>
+    <section class="footer">
+        <div class="has-text-centered">
+          This was <strong>Timon Schmelzer</strong>. The website is hosts via <a href="https://github.com/kecksdose/me">github</a>.
+        </div>
+    </section>
   </body>
 </html>
